@@ -1,0 +1,39 @@
+name       : cerebro 
+version    : 0.3.2
+release    : 1
+source     :
+    - https://github.com/KELiON/cerebro/archive/v0.3.2.tar.gz : c727beb2b80210c5fca990dd6693d4bc81915ae31c6739977ca5f8e8f60405a4
+license    : MIT
+component  : system.utils
+summary    : Open-source productivity booster with a brain
+description: |
+    Open-source productivity booster with a brain
+networking : yes
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(xscrnsaver)
+    - pkgconfig(xtst)
+    - yarn
+setup      : |
+    %patch -p1 < $pkgfiles/0001-linux-not-build-deb.patch
+build      : |
+    yarn
+    pushd app
+    yarn
+    popd
+    yarn run package
+install    : |
+    install -dm00644 $installdir/usr/share/cerebro
+    cp -R $workdir/release/linux-unpacked/* $installdir/usr/share/cerebro
+
+    install -dm00755 $installdir/usr/bin
+    ln -sv /usr/share/cerebro/cerebro $installdir/usr/bin/cerebro
+    install -Dm00644 $pkgfiles/cerebro.desktop $installdir/usr/share/applications/cerebro.desktop
+
+    # Install icons
+    for size in 16 32 48 128 256 512 1024; do
+        install -Dm00644 $workdir/build/icons/${size}x${size}.png \
+            $installdir/usr/share/icons/hicolor/${size}x${size}/apps/cerebro.png
+    done

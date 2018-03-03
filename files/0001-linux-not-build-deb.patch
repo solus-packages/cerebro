@@ -1,0 +1,16 @@
+diff -Naur cerebro-0.3.2/package.json cerebro-0.3.2.patch/package.json
+--- cerebro-0.3.2/package.json	2017-12-05 02:31:58.000000000 -0500
++++ cerebro-0.3.2.patch/package.json	2017-12-18 18:29:43.563321387 -0500
+@@ -39,12 +39,6 @@
+     "linux": {
+       "target": [
+         {
+-          "target": "deb",
+-          "arch": [
+-            "x64"
+-          ]
+-        },
+-        {
+           "target": "AppImage",
+           "arch": [
+             "x64"

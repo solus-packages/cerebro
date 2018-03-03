@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cerebro
+Comment=Extendable electron-based open-source Spotlight and Alfred analogue
+Exec=cerebro
+Terminal=false
+Type=Application
+Icon=cerebro
+Categories=Utility;
