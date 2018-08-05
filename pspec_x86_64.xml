@@ -2,8 +2,8 @@
     <Source>
         <Name>cerebro</Name>
         <Packager>
-            <Name>Longwu Ou</Name>
-            <Email>oulongwu@mit.edu</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
@@ -19,9 +19,78 @@
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/cerebro</Path>
             <Path fileType="data">/usr/share/applications/cerebro.desktop</Path>
-            <Path fileType="data">/usr/share/cerebro</Path>
+            <Path fileType="data">/usr/share/cerebro/LICENSE.electron.txt</Path>
+            <Path fileType="data">/usr/share/cerebro/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/cerebro/blink_image_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/cerebro</Path>
+            <Path fileType="data">/usr/share/cerebro/content_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/content_shell.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/cerebro/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/cerebro/libnode.so</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/fake-bidi.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/natives_blob.bin</Path>
+            <Path fileType="data">/usr/share/cerebro/pdf_viewer_resources.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/cerebro/resources/electron.asar</Path>
+            <Path fileType="data">/usr/share/cerebro/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/cerebro/ui_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/cerebro/views_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/icons/hicolor/1024x1024/apps/cerebro.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/cerebro.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/cerebro.png</Path>
@@ -32,12 +101,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-03</Date>
+        <Update release="2">
+            <Date>2018-08-04</Date>
             <Version>0.3.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Longwu Ou</Name>
-            <Email>oulongwu@mit.edu</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
